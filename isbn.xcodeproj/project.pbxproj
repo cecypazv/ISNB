@@ -14,6 +14,8 @@
 		1F30765F1DBECB8C00EE881C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F30765D1DBECB8C00EE881C /* LaunchScreen.storyboard */; };
 		1F30766A1DBECB8C00EE881C /* isbnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3076691DBECB8C00EE881C /* isbnTests.swift */; };
 		1F3076751DBECB8C00EE881C /* isbnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3076741DBECB8C00EE881C /* isbnUITests.swift */; };
+		1F3076831DBEF36300EE881C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3076821DBEF36300EE881C /* Default-568h@2x.png */; };
+		1F4F43F91DC55BCE00290C45 /* Library.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F43F81DC55BCE00290C45 /* Library.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1F3076701DBECB8C00EE881C /* isbnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isbnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3076741DBECB8C00EE881C /* isbnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isbnUITests.swift; sourceTree = "<group>"; };
 		1F3076761DBECB8C00EE881C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F3076821DBEF36300EE881C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1F4F43F81DC55BCE00290C45 /* Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Library.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		1F3076481DBECB8C00EE881C = {
 			isa = PBXGroup;
 			children = (
+				1F3076821DBEF36300EE881C /* Default-568h@2x.png */,
 				1F3076531DBECB8C00EE881C /* isbn */,
 				1F3076681DBECB8C00EE881C /* isbnTests */,
 				1F3076731DBECB8C00EE881C /* isbnUITests */,
@@ -97,6 +102,7 @@
 		1F3076531DBECB8C00EE881C /* isbn */ = {
 			isa = PBXGroup;
 			children = (
+				1F4F43F81DC55BCE00290C45 /* Library.png */,
 				1F3076541DBECB8C00EE881C /* AppDelegate.swift */,
 				1F3076561DBECB8C00EE881C /* ViewController.swift */,
 				1F3076581DBECB8C00EE881C /* Main.storyboard */,
@@ -233,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F30765F1DBECB8C00EE881C /* LaunchScreen.storyboard in Resources */,
+				1F4F43F91DC55BCE00290C45 /* Library.png in Resources */,
+				1F3076831DBEF36300EE881C /* Default-568h@2x.png in Resources */,
 				1F30765C1DBECB8C00EE881C /* Assets.xcassets in Resources */,
 				1F30765A1DBECB8C00EE881C /* Main.storyboard in Resources */,
 			);
@@ -503,6 +511,7 @@
 				1F30767B1DBECB8C00EE881C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F30767C1DBECB8C00EE881C /* Build configuration list for PBXNativeTarget "isbnTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				1F30767E1DBECB8C00EE881C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F30767F1DBECB8C00EE881C /* Build configuration list for PBXNativeTarget "isbnUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				1F3076811DBECB8C00EE881C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
